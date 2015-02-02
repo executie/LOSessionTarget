@@ -1,7 +1,6 @@
 # Continuously updating word count based on paragraph style
-import unohelper, uno, time
+import unohelper, uno, time, threading
 from com.sun.star.awt import XTopWindowListener
-import threading
 
 DEBUG = False
 #DEBUG = True
